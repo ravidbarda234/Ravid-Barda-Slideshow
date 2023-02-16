@@ -8,12 +8,13 @@
     <link rel="shortcut icon" href="assets/images/favicon-img.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="style.css">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <script src="../src/index.js"></script>
-    <title>SlideShow - app</title>
+    <script src="../src/app.js" type="module"></script>
+    <title>SlideShow - App</title>
 </head>
 
 <body>
@@ -21,10 +22,9 @@
         <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
             <div class="container">
                 <span class="navbar-brand cursor" href="#">SlideShow</span>
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
                     aria-controls="navbarColor01 " aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="bi bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse d-flex-md justify-content-between" id="navbarColor01">
                     <div>
@@ -51,7 +51,18 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div id="home-page" class="d-block container">
+            <div class="center">
+                <div class="col-12 col-md-10 col-xl-8">
+                    <h1 class="display-4">Home Page</h1>
+                    <h2 class="fs-5">Here you can look at your pictures</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer class="border-top pt-3 bg-dark center" data-bs-theme="dark">
         <p class="text-light">Created by Ravid Barda &copy;</p>
     </footer>
