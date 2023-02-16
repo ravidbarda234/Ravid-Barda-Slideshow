@@ -21,7 +21,7 @@
     <header>
         <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
             <div class="container">
-                <span class="navbar-brand cursor" href="#">SlideShow</span>
+                <span class="navbar-brand cursor" id="home-page-link">SlideShow</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
                     aria-controls="navbarColor01 " aria-expanded="false" aria-label="Toggle navigation">
                     <i class="bi bi-list"></i>
@@ -30,20 +30,20 @@
                     <div>
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <span class="nav-link cursor" aria-current="page" href="#">About</span>
+                                <span class="nav-link cursor" aria-current="page" id="about-page-link">About</span>
                             </li>
                             <li class="nav-item">
-                                <span class="nav-link cursor" aria-current="page" href="#">Add Pic</span>
+                                <span class="nav-link cursor" aria-current="page">Add Pic</span>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <span class="nav-link cursor" aria-current="page" href="#">Sign Up</span>
+                                <span class="nav-link cursor" aria-current="page">Sign Up</span>
                             </li>
                             <li class="nav-item">
-                                <span class="nav-link cursor" aria-current="page" href="#">Login</span>
+                                <span class="nav-link cursor" aria-current="page">Login</span>
                             </li>
                         </ul>
                     </div>
@@ -52,13 +52,29 @@
         </nav>
     </header>
     <main>
-        <div id="home-page" class="d-block container">
-            <div class="center">
-                <div class="col-12 col-md-10 col-xl-8">
-                    <h1 class="display-4">Home Page</h1>
-                    <h2 class="fs-5">Here you can look at your pictures</h2>
-                    <hr>
+        <div id="home-page" class="d-block">
+            <div class="container">
+                <div class="center">
+                    <div class="col-12 col-md-10 col-xl-8">
+                        <h1 class="display-4">Home Page</h1>
+                        <h2 class="fs-5">Here you can look at your pictures</h2>
+                        <hr>
+                    </div>
                 </div>
+                <p>Home page content</p>
+            </div>
+
+        </div>
+        <div id="about-page" class="d-none container">
+            <div class="container">
+                <div class="center">
+                    <div class="col-12 col-md-10 col-xl-8">
+                        <h1 class="display-4">About</h1>
+                        <h2 class="fs-5">Here you can look at your pictures</h2>
+                        <hr>
+                    </div>
+                </div>
+                <p>About page content</p>
             </div>
         </div>
     </main>
